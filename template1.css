@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Ephesis&display=swap');
+*{
+    box-sizing: border-box;
+}
+.main-img{
+    background-image: url(City-rain-road-buildings_1920x1080.jpg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.img-content{
+min-height: 80vh;
+display: flex;
+justify-content: center;
+align-content: center;
+flex-direction: column;
+
+}
+
+.nav-link:hover{
+    background-color: #080808;
+    
+}
+.img-content h2{
+    font-size: 50px;
+font-family: 'Ephesis', cursive;
+}
+.box{
+    background-color: rgb(242, 245, 95);
+    border: rgb(255, 223, 175) 1px solid;
+    border-radius: 3px;
+    padding: 5px;
+}
+.portfolio{
+    margin-top: 40%;
+    text-align: left;
+    background-color:rgba(0,0,0,0.705);!important
+}
+#contact{
+    background-image: url(contant-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+   display: flex;
+   flex-direction: column;
+}
+.content{
+    margin-top: 70%;
+    text-align: left;
+    background-color:rgba(0,0,0,0.705);!important
+}
+.form-input{
+    width: 100%;
+    padding: 5px;
+
+}
+#contact input,textarea{
+    width: 50%;
+    margin: 10px auto;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+   
+}
+.footer ul li{
+    list-style: none;
+    display: inline;
+    padding: 10px;
+}
+.footer ul li a{
+    color: white;
+    text-decoration: none;
+}
+@media only screen and(max-width: 992px){
+    #contact input,textarea{
+        width: 80%;
+        }
+        .img-content{
+            width: 90%;
+            margin: auto;
+        }
+    }
+@media only screen and(max-width: 567px){
+
+    .img-content{
+        width: 100%;
+        margin: auto;
+    }
+.main-img{
+        width:90%;
+        margin: auto;
+    }
+#contact input,textarea{
+ width: 90%;
+ margin: auto;
+}
+.img-content{
+    width: 100%;
+    margin: auto;
+}
+}
